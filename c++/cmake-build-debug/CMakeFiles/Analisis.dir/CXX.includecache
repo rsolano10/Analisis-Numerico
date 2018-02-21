@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rodolfo/clion/clionProjects/Analisis/Matematica.cpp
+Matematica.h
+/home/rodolfo/clion/clionProjects/Analisis/Matematica.h
+
+/home/rodolfo/clion/clionProjects/Analisis/Matematica.h
+cmath
+-
+
+/home/rodolfo/clion/clionProjects/Analisis/main.cpp
+iostream
+-
+Matematica.h
+/home/rodolfo/clion/clionProjects/Analisis/Matematica.h
+

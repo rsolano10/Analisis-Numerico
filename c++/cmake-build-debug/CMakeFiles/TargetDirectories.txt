@@ -1,0 +1,3 @@
+/home/rodolfo/clion/clionProjects/Analisis/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/rodolfo/clion/clionProjects/Analisis/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/rodolfo/clion/clionProjects/Analisis/cmake-build-debug/CMakeFiles/Analisis.dir

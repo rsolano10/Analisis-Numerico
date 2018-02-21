@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Analisis.dir/main.cpp.o CMakeFiles/Analisis.dir/Matematica.cpp.o  -o Analisis 

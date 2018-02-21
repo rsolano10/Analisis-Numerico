@@ -1,1 +1,2 @@
-# Analisis-Numerico ITCR
+# Analisis-Numerico ITCR Tarea 1 
+
