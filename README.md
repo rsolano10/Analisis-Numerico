@@ -4,4 +4,3 @@
 # Alumno: Rodolfo Solano Asenjo - 2015095556
 # Curso Lectivo I semestre 2018
 
-Instrucciones de compilado y corrido de los programas
