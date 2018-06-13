@@ -159,7 +159,8 @@ matriz_principal
 ## eigenvectores                                                      ##
 ########################################################################
 #reducimos Xd los vectores X
-mfd = matriz_principal' * Xd;
+#mfd = matriz_principal' * Xd;
+mfd = vectcar' * Xd;
 ## Grafique la proyección
 figure(3);
 pt0 = zeros(f);
@@ -171,11 +172,11 @@ hold on;
 ## Calcule los datos reconstrudos a partir de los datos proyectados   ##
 ########################################################################
 #Codigo por cambiar
-mfd1 = vectcar' * Xd;
-Xd1 = inv(vectcar') * mfd1;
+
+Xd1 = inv(vectcar') * mfd;
 ###################
 figure(4);
 plot3(x,y,z,['x','b']),title('Matriz inicial vs reconstruida'),xlabel('x'),ylabel('y'),zlabel('z'), grid('on');
 hold on;
-plot3(Xd1(1,:),Xd1(2,:),Xd1(3,:),['o','c'])
+plot3(Xd1(1,:),Xd1(2,:),Xd1(3,:),['s','m'])
 hold off;
